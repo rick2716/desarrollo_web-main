@@ -1,4 +1,8 @@
 import './Amazon.css';
+import menu from './img/menu.png';
+import img1 from './img/img1.jpg';
+import img2 from './img/img2.jpg';
+import img3 from './img/img3.jpg';
 
 function Amazon() {
   return (
@@ -31,7 +35,7 @@ function Amazon() {
           </div>
         </div>
         <div className="opciones">
-          <button className="botonOpciones">Todo</button>
+          <button className="botonOpciones"><img id="imgMenu" src={menu} /> Todo</button>
           <button className="botonOpciones">Ofertas del Día</button>
           <button className="botonOpciones">Comprar de Nuevo</button>
           <button className="botonOpciones">Tarjetas de Regalo</button>
@@ -128,7 +132,7 @@ function Amazon() {
         <h2>RESULTADOS</h2>
         <div className="containerResultados">
           <div className="img1">
-            <h1>IMAGEN 1</h1>
+            <img id="img1" src={img1} />
           </div>
           <div className="producto1">
             <p className="bold">
@@ -142,7 +146,7 @@ function Amazon() {
             <p className="bold">Envio GRATIS a Colombia</p>
           </div>
           <div className="img2">
-            <h1>IMAGEN 2</h1>
+            <img id="img2" src={img2} />
           </div>
           <div className="producto2">
             <p className="bold">
@@ -157,7 +161,7 @@ function Amazon() {
             <p className="bold">Envio GRATIS a Colombia</p>
           </div>
           <div className="img3">
-            <h1>IMAGEN 3</h1>
+            <img id="img3" src={img3} />
           </div>
           <div className="producto3">
             <p className="bold">
