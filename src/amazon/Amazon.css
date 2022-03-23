@@ -1,0 +1,188 @@
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: [v1] 20vw [v2] 80vw [v3];
+  grid-template-rows: [r1] 15vh [r2] 85vh [r3];
+  grid-template-areas:
+    "header header"
+    "filtro main";
+}
+
+.header {
+  grid-area: header;
+}
+
+.filtro {
+  position: relative;
+  grid-area: filtro;
+}
+
+.main {
+  grid-area: main;
+}
+
+.containerBuscador {
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #131921;
+}
+
+.opciones {
+  width: 100vw;
+  height: 4vh;
+  background-color: #232f3e;
+  display: flex;
+  flex-direction: row;
+}
+
+.botonOpciones {
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.botonOpciones:hover {
+  background-color: transparent;
+  border-color: white;
+}
+
+.resultado {
+  position: relative;
+  width: 100vw;
+  height: 5vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#phone {
+  color: orange;
+}
+
+.logo {
+  width: 10vw;
+  text-align: center;
+}
+
+#logoAmazon {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#logoBandera {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.ubicacion {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 0px;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.buscador {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#inputBuscar {
+  height: 70%;
+  width: 90%;
+}
+
+.bandera {
+  width: 5vw;
+}
+
+.listas {
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 0px;
+  color: white;
+}
+
+.pedidos {
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 0px;
+  color: white;
+}
+
+.carrito {
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 0px;
+  color: white;
+}
+
+.containerResultados {
+  height: 78vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: [v1] 30% [v2] 70% [v3];
+  grid-template-rows: [r1] 33% [r2] 33% [r3] 33% [r4];
+  grid-template-areas:
+    "img1 producto1"
+    "img2 producto2"
+    "img3 producto3";
+}
+
+.img1 {
+  grid-area: img1;
+  text-align: center;
+}
+
+.producto1 {
+  grid-area: producto1;
+}
+
+.img2 {
+  grid-area: img2;
+  text-align: center;
+}
+
+.producto2 {
+  grid-area: producto2;
+}
+
+.img3 {
+  grid-area: img3;
+  text-align: center;
+}
+
+.producto3 {
+  grid-area: producto3;
+}
+
+.dolares {
+  font-weight: bold;
+  font-size: 30px;
+}
