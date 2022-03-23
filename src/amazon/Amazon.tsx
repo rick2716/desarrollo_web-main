@@ -146,7 +146,7 @@ function Amazon() {
           </div>
           <div className="producto2">
             <p className="bold">
-              Reloj inteligente para hombres y mujeres, ratreador de fitness con
+              Reloj inteligente para hombres y mujeres, rastreador de fitness con
               frecuencia cardíaca, presión arterial, monitor de sueño, ratreador
               de pasos, podómetro impermeable, 24 modos...
             </p>
